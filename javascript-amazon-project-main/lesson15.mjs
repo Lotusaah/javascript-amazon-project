@@ -7,15 +7,15 @@ function dateFormat(date) {
 
 const day = dayjs();
 
-console.log(day);
+//console.log(day);
 
 const day2 = day.add(2, 'day');
 
 const dayMinusMonth = day.subtract(1, 'month');
 
-console.log(dayMinusMonth);
+//console.log(dayMinusMonth);
 
-console.log(dateFormat(dayMinusMonth));
+//console.log(dateFormat(dayMinusMonth));
 
 console.log(day.format('d'));
 
